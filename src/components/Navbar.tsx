@@ -17,7 +17,7 @@ import { SidebarTrigger } from "@/components/ui/sidebar";
 const Navbar = () => {
   const { setTheme } = useTheme();
   return (
-    <nav className="p-4 flex justify-between items-center">
+    <nav className="p-4 flex justify-between items-center sticky top-0 bg-background z-10">
       {/* left side */}
       <SidebarTrigger />
       {/* theme menu */}
